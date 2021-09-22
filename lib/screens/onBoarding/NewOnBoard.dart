@@ -261,6 +261,10 @@ setState(() {
           else{
             Global.garagePhotos = false;
           }
+
+
+
+
           if(value.result[0].gstStatus=="1") {
             Global.identifiationgst = true;
           }
